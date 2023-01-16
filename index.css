@@ -316,3 +316,99 @@ p.last-contant {
     border-radius: 5px;
     color: #424242;
 }
+
+@media screen and (max-width:576px) {
+    .nav{
+        flex-direction: column;
+    }
+    .nav-logo h2{
+        text-align: center;
+    }
+    .menu-list{
+        flex-direction: column;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .container{
+        margin: 0px;
+    }
+
+    .content-wrap{
+        flex-direction: column;
+    }
+    .img-2{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .four-img-detailse{
+        margin: 0px;
+    }
+    .four-img-detailse p{
+        width: 200px;
+        margin-left: 10px;
+    }
+    .four-img-detailse h2{
+        margin-top: 30px;
+    }
+    .container{
+        width: 375px;
+    }
+    .all-detils-img{
+        flex-direction: column;
+    }
+    .all-detilse p{
+        width: 250px;
+        margin-left: 20px;
+    }
+    .all-derilse-img img{
+        width: 375px;
+        margin-left: 20px;
+    }
+    .site-border{
+        width: 370px;
+    }
+    .spne-div{
+        top: 0px;
+        left: 0px;
+        margin-left:55px ;
+    
+    }
+    .flix-div{
+        flex-direction: column;
+    }
+    .section-details h2{
+        padding-top: 100px;
+        margin-left: 20px;
+
+
+    }
+    .section-details p{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .imgbox{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .header-titles h2{
+        width: 200px;
+    }
+     .header-titles p{
+        width: 375px;
+     }
+     ul.logo-ul{
+        flex-direction: column;
+        text-align: center;
+     }
+   .sub-details{
+    width: 350px;
+   }
+
+}
+
+
+
+
+.hide{
+    display: none;
+}
