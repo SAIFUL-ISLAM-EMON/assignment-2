@@ -218,6 +218,25 @@ section.section-awarde {margin-top: 120px;}
     margin-bottom: 40px;
     color: #727272;
 }
+.box{
+
+    transition: width 3s,height 3s, transform 3s;
+
+    }
+
+        .box:hover{
+        width: 200px;
+        height: 200px;
+        transform: rotate(130deg);
+        background-color: #60ed53;
+        transition: 2s;
+    }
+    
+    .bat:hover{
+        transform: rotate(-70deg);
+        transform-origin: top right;
+
+    }
 .flix-div{
     display: flex;
     gap: 50px;
